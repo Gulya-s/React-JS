@@ -1,0 +1,16 @@
+.user_card{
+    background: #8c3232;
+    border-radius: 15px;
+    padding: 16px;
+    width: 200px;
+}
+
+.user_card h3{
+    margin: 0;
+    color: #7985e0;
+}
+
+.user_card p{
+    margin: 8px 0 0 ;
+    color: #86f4fc;
+}
