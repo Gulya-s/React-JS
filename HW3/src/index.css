@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: #fff;
+}
+
+button{
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #2795ae;
+  border: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2e5dcc;
+}
+input{
+  padding: 6px 8px;
+}
