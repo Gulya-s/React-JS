@@ -20,6 +20,7 @@ const initialValues = {
 const schema = Yup.object({
     fullName: Yup.string()
     .trim()
+    .min(3, "Too short")
     .required("Full name is required"),
 
     email: Yup.string()
@@ -32,6 +33,10 @@ const schema = Yup.object({
     course: Yup.string()
     .oneOf(["Course A", "Course B", "Course C"], "Select a course")
     .required("Select a course"),
+
+    gender: Yup.string()
+    .oneOf(['MALE', 'FEMALE'], 'Select gender')
+    .required('Select gender'),
 
     dob: Yup.string().required("Required"),
 
